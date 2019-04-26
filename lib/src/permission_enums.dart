@@ -83,103 +83,106 @@ class PermissionGroup {
 
   final int value;
 
-  /// Android: Calendar
-  /// iOS: Calendar (Events)
-  static const PermissionGroup calendar = PermissionGroup._(0);
+  // /// Android: Calendar
+  // /// iOS: Calendar (Events)
+  // static const PermissionGroup calendar = PermissionGroup._(0);
 
-  /// Android: Camera
-  /// iOS: Photos (Camera Roll and Camera)
-  static const PermissionGroup camera = PermissionGroup._(1);
+  // /// Android: Camera
+  // /// iOS: Photos (Camera Roll and Camera)
+  // static const PermissionGroup camera = PermissionGroup._(1);
 
-  /// Android: Contacts
-  /// iOS: AddressBook
-  static const PermissionGroup contacts = PermissionGroup._(2);
+  // /// Android: Contacts
+  // /// iOS: AddressBook
+  // static const PermissionGroup contacts = PermissionGroup._(2);
 
-  /// Android: Fine and Coarse Location
-  /// iOS: CoreLocation (Always and WhenInUse)
-  static const PermissionGroup location = PermissionGroup._(3);
+  // /// Android: Fine and Coarse Location
+  // /// iOS: CoreLocation (Always and WhenInUse)
+  // static const PermissionGroup location = PermissionGroup._(3);
 
-  /// Android: Fine and Coarse Location
-  /// iOS: CoreLocation - Always
-  static const PermissionGroup locationAlways = PermissionGroup._(4);
+  // /// Android: Fine and Coarse Location
+  // /// iOS: CoreLocation - Always
+  // static const PermissionGroup locationAlways = PermissionGroup._(4);
 
-  /// Android: Fine and Coarse Location
-  /// iOS: CoreLocation - WhenInUse
-  static const PermissionGroup locationWhenInUse = PermissionGroup._(5);
+  // /// Android: Fine and Coarse Location
+  // /// iOS: CoreLocation - WhenInUse
+  // static const PermissionGroup locationWhenInUse = PermissionGroup._(5);
 
-  /// Android: None
-  /// iOS: MPMediaLibrary
-  static const PermissionGroup mediaLibrary = PermissionGroup._(6);
+  // /// Android: None
+  // /// iOS: MPMediaLibrary
+  // static const PermissionGroup mediaLibrary = PermissionGroup._(6);
 
   /// Android: Microphone
   /// iOS: Microphone
-  static const PermissionGroup microphone = PermissionGroup._(7);
+  // static const PermissionGroup microphone = PermissionGroup._(7);
+  static const PermissionGroup microphone = PermissionGroup._(0);
 
-  /// Android: Phone
-  /// iOS: Nothing
-  static const PermissionGroup phone = PermissionGroup._(8);
+  // /// Android: Phone
+  // /// iOS: Nothing
+  // static const PermissionGroup phone = PermissionGroup._(8);
 
-  /// Android: Nothing
-  /// iOS: Photos
-  static const PermissionGroup photos = PermissionGroup._(9);
+  // /// Android: Nothing
+  // /// iOS: Photos
+  // static const PermissionGroup photos = PermissionGroup._(9);
 
-  /// Android: Nothing
-  /// iOS: Reminders
-  static const PermissionGroup reminders = PermissionGroup._(10);
+  // /// Android: Nothing
+  // /// iOS: Reminders
+  // static const PermissionGroup reminders = PermissionGroup._(10);
 
-  /// Android: Body Sensors
-  /// iOS: CoreMotion
-  static const PermissionGroup sensors = PermissionGroup._(11);
+  // /// Android: Body Sensors
+  // /// iOS: CoreMotion
+  // static const PermissionGroup sensors = PermissionGroup._(11);
 
-  /// Android: Sms
-  /// iOS: Nothing
-  static const PermissionGroup sms = PermissionGroup._(12);
+  // /// Android: Sms
+  // /// iOS: Nothing
+  // static const PermissionGroup sms = PermissionGroup._(12);
 
-  /// Android: Microphone
-  /// iOS: Speech
-  static const PermissionGroup speech = PermissionGroup._(13);
+  // /// Android: Microphone
+  // /// iOS: Speech
+  // static const PermissionGroup speech = PermissionGroup._(13);
 
   /// Android: External Storage
   /// iOS: Nothing
-  static const PermissionGroup storage = PermissionGroup._(14);
+  // static const PermissionGroup storage = PermissionGroup._(14);
+  static const PermissionGroup storage = PermissionGroup._(1);
 
   /// The unknown permission only used for return type, never requested
-  static const PermissionGroup unknown = PermissionGroup._(15);
+  // static const PermissionGroup unknown = PermissionGroup._(15);
+  static const PermissionGroup unknown = PermissionGroup._(2);
 
   static const List<PermissionGroup> values = <PermissionGroup>[
-    calendar,
-    camera,
-    contacts,
-    location,
-    locationAlways,
-    locationWhenInUse,
-    mediaLibrary,
+    // calendar,
+    // camera,
+    // contacts,
+    // location,
+    // locationAlways,
+    // locationWhenInUse,
+    // mediaLibrary,
     microphone,
-    phone,
-    photos,
-    reminders,
-    sensors,
-    sms,
-    speech,
+    // phone,
+    // photos,
+    // reminders,
+    // sensors,
+    // sms,
+    // speech,
     storage,
     unknown,
   ];
 
   static const List<String> _names = <String>[
-    'calendar',
-    'camera',
-    'contacts',
-    'location',
-    'locationAlways',
-    'locationWhenInUse',
-    'mediaLibrary',
+    // 'calendar',
+    // 'camera',
+    // 'contacts',
+    // 'location',
+    // 'locationAlways',
+    // 'locationWhenInUse',
+    // 'mediaLibrary',
     'microphone',
-    'phone',
-    'photos',
-    'reminders',
-    'sensors',
-    'sms',
-    'speech',
+    // 'phone',
+    // 'photos',
+    // 'reminders',
+    // 'sensors',
+    // 'sms',
+    // 'speech',
     'storage',
     'unknown',
   ];
