@@ -13,7 +13,7 @@
 // #import "ContactPermissionStrategy.h"
 // #import "EventPermissionStrategy.h"
 // #import "LocationPermissionStrategy.h"
-#import "MediaLibraryPermissionStrategy.h"
+// #import "MediaLibraryPermissionStrategy.h"
 #import "PermissionStrategy.h"
 // #import "PhotoPermissionStrategy.h"
 // #import "SensorPermissionStrategy.h"
